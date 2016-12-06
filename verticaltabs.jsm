@@ -111,7 +111,17 @@ VerticalTabs.prototype = {
                 break;
             }
             break;
-            
+        case "WINNT":
+                stylesheet = "resource://verticaltabs/skin/win7/win7.css";
+                break;
+                
+        case "Darwin":
+                stylesheet = "resource://verticaltabs/skin/osx/osx.css";
+                break;
+                
+        case "Linux":
+                stylesheet = "resource://verticaltabs/skin/linux/linux.css";
+                break;
         case "dark":
             stylesheet = "resource://verticaltabs/skin/dark/dark.css";
             break;

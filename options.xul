@@ -11,6 +11,9 @@
       <menuitem value="default" label="Default" />
       <menuitem value="dark" label="Dark" />
       <menuitem value="light" label="Light" />
+      <menuitem value="WINNT" label="Win7" />
+      <menuitem value="Darwin" label="Mac OS X" />
+      <menuitem value="Linux" label="Linux" />
       </menupopup>
     </menulist>
   </setting>
